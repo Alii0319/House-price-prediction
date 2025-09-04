@@ -39,13 +39,13 @@ Predict real estate prices in Pakistani cities (Karachi, Lahore, Islamabad) usin
   - random_state: 42
 
 ### Pipeline Architecture
-```python```
+```python
 Pipeline:
 1. ColumnTransformer (Automated Preprocessing)
    ├── OneHotEncoder (Categorical features)
    └── MinMaxScaler (Numerical features)
 2. RandomForestRegressor (Optimized model)
-
+```
 ### Tech Stack
 Core: Python 3.x
 ML: Scikit-learn (Pipeline, ColumnTransformer, GridSearchCV)
