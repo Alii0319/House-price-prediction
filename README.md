@@ -46,19 +46,19 @@ Pipeline:
    └── MinMaxScaler (Numerical features)
 2. RandomForestRegressor (Optimized model)
 
-## Tech Stack
+### Tech Stack
 Core: Python 3.x
 ML: Scikit-learn (Pipeline, ColumnTransformer, GridSearchCV)
 Data: Pandas, NumPy
 Visualization: Matplotlib
 Model: Random Forest Regressor
 
-## Model Performance
+### Model Performance
 R² Score: [Your actual score]
 Mean Absolute Error: [Your MAE] PKR
 Root Mean Square Error: [Your RMSE] PKR
 
-## Key Technical Highlights
+### Key Technical Highlights
 ✅ Automated Pipeline (no manual preprocessing)
 ✅ GridSearchCV Optimization (best hyperparameters)
 ✅ ColumnTransformer (handles mixed data types)
@@ -66,29 +66,29 @@ Root Mean Square Error: [Your RMSE] PKR
 ✅ Multiple Visualizations (Scatter, Residuals, Feature Importance)
 ✅ Professional Code Structure
 
-## Visualizations
+### Visualizations
 Feature Importance Plot - Which factors drive house prices
 Actual vs Predicted - Model accuracy visualization
 Residuals Plot - Error distribution analysis
 
-## Advanced Features
+### Advanced Features
 Pipeline Integration for production-ready code
 Automated preprocessing with ColumnTransformer
 Hyperparameter tuning results implemented
 Handle unknown categories during prediction
 Comprehensive model evaluation
 
-## How to Run
+### How to Run
 pip install pandas scikit-learn matplotlib numpy
 python house_price_prediction.py
 
-##Model Insights
+### Model Insights
 Most Important Features: [Based on your feature importance plot]
 Location Impact: Significant price variation across cities
 Size & Condition: Major price determinants
 Optimized Performance: GridSearchCV ensures best model configuration
 
-## Future Enhancements
+### Future Enhancements
 Cross-validation implementation
 Additional ensemble methods
 Feature selection techniques
