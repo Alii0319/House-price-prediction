@@ -54,9 +54,9 @@ Visualization: Matplotlib
 Model: Random Forest Regressor
 
 ### Model Performance
-R² Score: [Your actual score]
-Mean Absolute Error: [Your MAE] PKR
-Root Mean Square Error: [Your RMSE] PKR
+R² Score: [0.99]
+Mean Absolute Error: [271362.43]
+Root Mean Square Error: [360277.09]
 
 ### Key Technical Highlights
 ✅ Automated Pipeline (no manual preprocessing)
